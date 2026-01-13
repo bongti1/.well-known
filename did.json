@@ -3,23 +3,23 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:localhost:3000:.well-known:did.json",
+  "id": "did:web:well-known-peach.vercel.app:",
   "verificationMethod": [
     {
-      "id": "did:web:localhost:3000:.well-known:did.json#owner",
+      "id": "did:web:well-known-peach.vercel.app:#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:localhost:3000:.well-known:did.json",
+      "controller": "did:web:well-known-peach.vercel.app:",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "GxmGSwgZ-3pzMgV3Eitf2nTVG_g_uD01XEwiWX1AAls"
+        "x": "kTqqq2f5zlxpxAdrJrjtLBOiQ5LlaTjNSAo_gZXb4nM"
       }
     }
   ],
   "authentication": [
-    "did:web:localhost:3000:.well-known:did.json#owner"
+    "did:web:well-known-peach.vercel.app:#owner"
   ],
   "assertionMethod": [
-    "did:web:localhost:3000:.well-known:did.json#owner"
+    "did:web:well-known-peach.vercel.app:#owner"
   ]
 }
