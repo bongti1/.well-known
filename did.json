@@ -3,23 +3,23 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:well-known-peach.vercel.app",
+  "id": "did:web:bongti1.github.io:.well-known:",
   "verificationMethod": [
     {
-      "id": "did:web:well-known-peach.vercel.app#owner",
+      "id": "did:web:bongti1.github.io:.well-known:#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:well-known-peach.vercel.app",
+      "controller": "did:web:bongti1.github.io:.well-known:",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
-        "x": "6ifUrj4fYumEl31elaU3i3yjz8eMWWkiKCM5Bf6tYwo"
+        "x": "FR3Tl1QGL3TNjrbMlcZFIcnj5dXxQDZLVjU8PrP61_Q"
       }
     }
   ],
   "authentication": [
-    "did:web:well-known-peach.vercel.app#owner"
+    "did:web:bongti1.github.io:.well-known:#owner"
   ],
   "assertionMethod": [
-    "did:web:well-known-peach.vercel.app#owner"
+    "did:web:bongti1.github.io:.well-known:#owner"
   ]
 }
