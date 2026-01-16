@@ -3,12 +3,12 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "id": "did:web:bongti1.github.io:.well-known:",
+    "id": "did:web:bongti1.github.io",
     "verificationMethod": [
         {
-            "id": "did:web:bongti1.github.io:.well-known:#owner",
+            "id": "did:web:bongti1.github.io#owner",
             "type": "JsonWebKey2020",
-            "controller": "did:web:bongti1.github.io:.well-known:",
+            "controller": "did:web:bongti1.github.io",
             "publicKeyJwk": {
                 "kty": "EC",
                 "crv": "secp256k1",
@@ -18,9 +18,9 @@
         }
     ],
     "authentication": [
-        "did:web:bongti1.github.io:.well-known:#owner"
+        "did:web:bongti1.github.io#owner"
     ],
     "assertionMethod": [
-        "did:web:bongti1.github.io:.well-known:#owner"
+        "did:web:bongti1.github.io#owner"
     ]
 }
