@@ -3,16 +3,13 @@
         "https://www.w3.org/ns/did/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "did": "did:web:bongti1.github.io:heanmengfong",
-    "provider": "did:web",
-    "alias": "bongti1.github.io:heanmengfong",
-    "controllerKeyId": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
+   "did": "did:web:bongti1.github.io",
+    "controllerKeyId": "0493eb7f93237cdd72c40e235a1e8b79d2b46d7a613dc31009c6a3ba0f8e0d1fdda0334255e45995370ead8cc6db74a3ca3a6cf919d9a82e6ae0e251730439015f",
     "keys": [
         {
-            "kid": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
-            "kms": "local",
             "type": "Secp256k1",
-            "publicKeyHex": "04bf4729a83959932991b59532bf79a7deced48db0dde04d23ab7348e417e92a52717bd1d74498b100d1d0befc957c6117e863628b718af9260523525cfabb6f78",
+            "kid": "0493eb7f93237cdd72c40e235a1e8b79d2b46d7a613dc31009c6a3ba0f8e0d1fdda0334255e45995370ead8cc6db74a3ca3a6cf919d9a82e6ae0e251730439015f",
+            "publicKeyHex": "0493eb7f93237cdd72c40e235a1e8b79d2b46d7a613dc31009c6a3ba0f8e0d1fdda0334255e45995370ead8cc6db74a3ca3a6cf919d9a82e6ae0e251730439015f",
             "meta": {
                 "algorithms": [
                     "ES256K",
@@ -22,8 +19,11 @@
                     "eth_signMessage",
                     "eth_rawSign"
                 ]
-            }
+            },
+            "kms": "local"
         }
     ],
-    "services": []
+    "services": [],
+    "provider": "did:web",
+    "alias": "bongti1.github.io"
 }
